@@ -1,0 +1,14 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.people-pic {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.larger-name {
+  font-size: 15px;
+  line-height: 18px;
+}

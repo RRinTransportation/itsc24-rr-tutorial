@@ -1,0 +1,197 @@
+---
+layout: default
+---
+
+<!-- Home -->
+<div class="home">
+    <h3>Workshop on Learning for Task and Motion Planning</h3>
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>
+
+<!-- <article class="post">
+
+  <h3>Call for Papers</h3>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article> -->
+
+
+<!-- Speakers -->
+
+<article class="post">
+
+  <h3>Speakers</h3>
+
+  <div class = "post-content">
+	  <table style="border-collapse: collapse; border: none;">
+      <tr style="border: none;">
+        <th></th>
+        <th>Speaker</th>
+        <!-- <th>Topic</th> -->
+        <th>Bio</th>
+      </tr>
+      {% for speaker in site.speakers %}
+		    <tr style="border: none;">
+		        <td style="border: none;">
+		            <div class="col-xs-6">
+		                <p align="center">
+		                	{% if speaker.img_url %}
+		                    	<img class="people-pic" src="{{ speaker.img_url }}" target="_blank">
+		                	{% elsif speaker.img %}
+                          <img class="people-pic" src="{{ speaker.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
+		                    {% else %}
+		                    	<img class="people-pic" src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
+		                    {% endif %}
+		                </p>
+		            </div>
+		        </td>
+		        <td style="border: none;">
+		            <div class="people-name text-center">
+		            	<!-- Speaker name (link to webpage if provided) -->
+		            	{% if speaker.webpage %}
+		            		<b><a href="{{ speaker.webpage }}" target="_blank">{{ speaker.name }}</a></b>
+		            	{% else %}
+		            		<b>{{ speaker.name }}</b>
+		            	{% endif %}
+		                <br>
+		                <!-- Speaker affiliation (if provided) -->
+		                {% if speaker.affil_link %}
+		                	<a href="{{ speaker.affil_link }}" target="_blank">{{ speaker.affil }}</a>
+		                {% else %}
+		                	{{ speaker.affil }}
+		                {% endif %}
+		                <!-- Additional speaker affiliation (if provided) -->
+		                {% if speaker.affil2_link %}
+		                	<br>
+		                	<a href="{{ speaker.affil2_link }}" target="_blank">{{ speaker.affil2 }}</a>
+		                {% elsif speaker.affil2 %}
+		                	<br>
+		                	{{ speaker.affil2 }}
+		                {% endif %}
+		            </div>
+		        </td>
+		        <!-- <td style="border: none;">
+		        	<div class="people-name text-center">
+		        		{{ speaker.topic }}
+		        	</div>
+		        </td> -->
+		        <td style="border: none;">
+		        	<div class="people-name text-left">
+		        		{{ speaker.content }}
+		        	</div>
+		        </td>
+		    </tr>
+      {% endfor %}
+	  </table>
+  </div>
+
+</article>
+
+
+<!-- Organizers -->
+<article class="post">
+
+  <h3>Organizers</h3>
+
+  <div class = "post-content">
+	  <table style="border-collapse: collapse; border: none; ">
+      <tr style="border: none;">
+	  	    {% for organizer in site.organizers %}
+		        <td style="border: none; vertical-align: top; padding: 10px 10px;">
+		            <div class="col-xs-12">
+		                <p align="center">
+		                	{% if organizer.img_url %}
+		                    	<img class="people-pic" src="{{ organizer.img_url }}" target="_blank">
+		                	{% elsif organizer.img %}
+  		                    <img class="people-pic" src="{{ organizer.img | prepend: '/assets/img/organizers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
+		                    {% else %}
+		                    	<img class="people-pic" src="{{ 'avatar.jpg' | prepend: '/assets/img/organizers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
+		                    {% endif %}
+		                </p>
+		            </div>
+		            <div class="people-name text-center">
+		            	<!-- organizer name (link to webpage if provided) -->
+		            	<span class="larger-name">
+                    {% if organizer.webpage %}
+		            		<a href="{{ organizer.webpage }}" target="_blank">{{ organizer.name }}</a>
+  		            	{% else %}
+  		            		{{ organizer.name }}
+  		            	{% endif %}
+                  </span>
+		                <br>
+		                <!-- organizer affiliation (if provided) -->
+		                {% if organizer.affil_link %}
+		                	<a href="{{ organizer.affil_link }}" target="_blank">{{ organizer.affil }}</a>
+		                {% else %}
+		                	{{ organizer.affil }}
+		                {% endif %}
+		                <!-- Additional organizer affiliation (if provided) -->
+		                {% if organizer.affil2_link %}
+		                	<br>
+		                	<a href="{{ organizer.affil2_link }}" target="_blank">{{ organizer.affil2 }}</a>
+		                {% elsif organizer.affil2 %}
+		                	<br>
+		                	{{ organizer.affil2 }}
+		                {% endif %}
+		            </div>
+		        </td>
+	       {% endfor %}
+      </tr>
+	  </table>
+  </div>
+
+</article>
