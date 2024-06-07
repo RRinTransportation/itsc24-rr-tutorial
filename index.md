@@ -48,83 +48,54 @@ The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on
     <td>Introductory Remarks</td>
   </tr>
   <tr>
-    <td>9:10 am - 10:30 am</td>
-    <td>Session 1: Introduction to Reproducible Research
-
-Objective: The participants will be able to identify issues that RR aims to solve. They will also learn how to pinpoint challenges in making analyses reproducible.
-
-Brief description: The introductory session will lay the groundwork for understanding the essential role of reproducibility in scientific research and specifically to transportation research. We'll start by defining reproducibility and explaining its significance in scientific research, focusing on how it underpins the validity and credibility of the findings in the field of Intelligent Transportation Systems (ITS). The reproducibility crisis will be discussed in light of its implications, such as hindrance to scientific progress, resource wastage, and diminished public trust in research outcomes. Further, we'll explore the relevance of reproducibility to ITS research, citing examples from traffic management systems to autonomous vehicle technology.
-
-The hands-on activity will focus on participants identifying some issues related to making transportation research reproducible [9]. We will also conduct a survey to assess attitudes towards RR and needs of the community.
-    </td>
+    <td>9:10 am - 10:45 am</td>
+    <td><b>Session 1: Introduction to Reproducible Research</b> <br/>Speakers/Contributors: Bidisha Ghosh, Zuduo Zhang</td>
   </tr>
   <tr>
-    <td>9:25 am - 9:40 am</td>
-    <td>Invited Talks 2: Pratyusha Sharma</td>
+    <td></td>
+    <td>Lecture 1:  Introduction to reproducible research (30 mins)</td>
   </tr>
   <tr>
-    <td>9:40 am - 9:55 am</td>
-    <td>Invited Talks 3: Dieter Fox (Remote)</td>
+    <td></td>
+    <td>Activity 1: Is your research reproducible? (60 min)</td>
   </tr>
   <tr>
-    <td>9:55 am - 10:30 am</td>
-    <td>Panel 1: Dieter Fox (Remote), Pratyusha Sharma, Siddharth Srivastava</td>
+    <td></td>
+    <td>Follow-up of hands-on activity (15 mins)</td>
   </tr>
   <tr>
-    <td>10:30 am - 11:00 am</td>
+    <td>10:45 am - 11:00 am</td>
     <td>Coffee Break</td>
   </tr>
   <tr>
-    <td>11:00 am - 11:15 am</td>
-    <td>Spotlight Talks 1: Nishanth Kumar, Willie McClinton (Remote)</td>
+    <td>11:00 am - 13:00 pm</td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
   </tr>
   <tr>
-    <td>11:15 am - 11:30 am</td>
-    <td>Spotlight Talks 2: Robert Gieselmann</td>
+    <td></td>
+    <td>Lecture 2: How to badly document a research project (30mins)</td>
   </tr>
   <tr>
-    <td>11:30 am - 11:45 am</td>
-    <td>Spotlight Talks 3: Nina Marie Moorman</td>
+    <td></td>
+    <td>Activity 2: Can you reproduce my simulation result within 5 minutes? (60 minutes)</td>
   </tr>
   <tr>
-    <td>11:45 am - 12:00 pm</td>
-    <td>Spotlight Talks 4: Zirui Zhao</td>
+    <td></td>
+    <td>Q&A and Wrap-Up (15 minutes)</td>
   </tr>
   <tr>
-    <td>12:00 pm - 1:30 pm</td>
-    <td>Lunch</td>
+    <td>13:00 pm - 14:00 pm</td>
+    <td>Lunch (Optional) <br/> Get involved in the community dedicated to Reproducible Research in Transportation.</td>
   </tr>
   <tr>
-    <td>1:30 pm - 3:00 pm</td>
-    <td>Poster session</td>
+    <td>14:00 pm - 15:00 pm</td>
+    <td><b>Session 3: Panel discussion on data sharing and management</b></td>
   </tr>
   <tr>
-    <td>3:00 pm - 3:30 pm</td>
-    <td>Coffee Break</td>
-  </tr>
-  <tr>
-    <td>3:30 pm - 3:45 pm</td>
-    <td>Invited Talks 4: Hector Geffner</td>
-  </tr>
-  <tr>
-    <td>3:45 pm - 4:00 pm</td>
-    <td>Invited Talks 5: Florian Shkurti</td>
-  </tr>
-  <tr>
-    <td>4:00 pm - 4:15 pm</td>
-    <td>Invited Talks 6: Masataro Asai (Remote)</td>
-  </tr>
-  <tr>
-    <td>4:15 pm - 4:50 pm</td>
-    <td>Panel 2: Masataro Asai (Remote), Hector Geffner, Florian Shkurti</td>
-  </tr>
-  <tr>
-    <td>4:50 pm - 5:00 pm</td>
-    <td>Conclusion Remarks / Best Paper Award</td>
+    <td>15:00 pm - 15:10 pm</td>
+    <td>Concluding Remarks</td>
   </tr>
 </tbody>
 </table>
-
-<!-- Please use this [Latex paper template](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/paper-template-latex.zip) and [submit](https://openreview.net/group?id=roboticsfoundation.org/RSS/2023/Workshop/LTAMP) via Open Review. Review will be single-blind so there's no need to anonymize your document. -->
 
 We are also grateful to Zuduo Zhang, Nicholas Saunier, and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
