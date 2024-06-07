@@ -40,10 +40,6 @@ Participants should bring laptops with installed required software to participat
 
 ### Tentative Schedule
 
-<!-- The workshop happened on July 10 in hybrid mode. The in-person location is in Daegu, Republic of Korea.
-
-The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on YouTube. -->
-
 <table>
 <thead>
   <tr>
