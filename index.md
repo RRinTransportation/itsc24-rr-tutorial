@@ -7,18 +7,17 @@ title: Home
 layout: all
 ---
 
-![RR banner](/assets/img/banner.png)
+![RR banner](assets/img/banner.png)
 
-This workshop will investigate the role of learning within Task and Motion Planning (TAMP). TAMP has shown remarkable capabilities in scaling to long action sequences, many objects and a variety of tasks. However, TAMP often relies on simplified models, assumes perfect world knowledge, and requires long computation time, which limits the real world applicability. To address these limitations, there has been significant recent interest in integrating learning methods into TAMP [
-<span class="secret1"><a href="https://proceedings.mlr.press/v164/ortiz-haro22a.html" target="_blank">1</a></span><span class="reveal1">Structured deep generative models for sampling on constraint manifolds in sequential manipulation. <br>Joaquim Ortiz-Haro, Jung-Su Ha, Danny Driess, Marc Toussaint. <br>CoRL 2022.</span>,
-<span class="secret2"><a href="https://arxiv.org/abs/2210.12250" target="_blank">2</a></span><span class="reveal2">TAPS: Task-Agnostic Policy Sequencing. <br>Christopher Agia, Toki Migimatsu, Jiajun Wu, Jeannette Bohg. <br>arXiv 2022.</span>,
-<span class="secret3"><a href="https://arxiv.org/abs/2210.12631" target="_blank">3</a></span><span class="reveal3">Guided skill learning and abstraction for long-horizon manipulation. <br>Shuo Cheng, Danfei Xu. <br>CoRL Workshop on Learning, Perception, and Abstraction for Long-Horizon Planning 2022.</span>,
-<span class="secret4"><a href="https://arxiv.org/abs/2103.00589" target="_blank">4</a></span><span class="reveal4">Learning symbolic operators for task and motion planning. <br>Tom Silver, Rohan Chitnis, Joshua Tenenbaum, Leslie Pack Kaelbling, Tomás Lozano-Pérez. <br>IROS 2021.</span>,
-<span class="secret5"><a href="https://arxiv.org/abs/2211.01576" target="_blank">5</a></span><span class="reveal5">Sequence-based plan feasibility prediction for efficient task and motion planning. <br>Zhutian Yang, Caelan Reed Garrett, Leslie Pack Kaelbling, Tomás Lozano-Pérez, and Dieter Fox. <br>RSS 2023.</span>
-]. Despite this progress, there remain many open questions that must be addressed before learning-based TAMP can be applied in real-world settings and in full generality.
+Reproducibility is a cornerstone of scientific research, providing the foundation for validating results and advancing knowledge. In research fields where computation-based scientific publication is pervasive, a credibility crisis has been warned [2]. Reproducible Research (RR) is gaining extensive attention in various fields, such as remote sensing, medicine, and data science, to ensure the validity and reliability of scientific findings.
 
-The goal of this workshop is to bring together a diverse set of researchers from TAMP, learning for TAMP, computer vision, classical AI planning, and NLP to discuss not only the current state of learning for TAMP, but also the broader state of learning for planning in robotics. Subtopics include: benchmarks, language, perception, skill learning, manipulation, closed-loop TAMP, and policy learning. All of these discussions will take place against the backdrop of recent progress in foundation models.
+In the field of traffic and transportation, Intelligent Transportation Systems (ITS) represent the most computationally intensive, fast-growing area of research with significant implications of outcomes for the general population. In ITS, the rapid evolution of technologies and methodologies has emphasized the need for RR practices. Reproducibility can refer to computational reproducibility, ensuring that the same data and analysis steps produce consistent results. However, when it is infeasible to replicate an entire scientific study, achieving reproducibility sets a minimum standard of scientific rigor by allowing others to validate and build upon the findings. With ITS being inherently interdisciplinary and data-driven, reproducibility forms the backbone for credible, reliable research outputs.
 
+The objectives of the tutorial:
+- An introduction to the fundamental concepts and importance of RR to the domain of ITS 
+- Provide hands-on training in the use of tools and software that facilitate reproducibility
+- Guide researchers on how to properly document and organize data and project outcomes to foster open science
+- Encourage collaboration among tutorial participants and the broader ITS community to foster a community that values and practices reproducible research
 
 #### Discussion Topics
 
@@ -30,16 +29,16 @@ The goal of this workshop is to bring together a diverse set of researchers from
 - **Model Learning**: Techniques and principles for learning discrete or continuous transition models from interaction data.
 
 
-### Schedule
+### Tentative Schedule
 
-The workshop happened on July 10 in hybrid mode. The in-person location is in Daegu, Republic of Korea. 
+<!-- The workshop happened on July 10 in hybrid mode. The in-person location is in Daegu, Republic of Korea.
 
-The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on YouTube.
+The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on YouTube. -->
 
 <table>
 <thead>
   <tr>
-    <th>Time (<a href="https://www.worldtimeserver.com/current_time_in_KR.aspx?city=Daegu">KST</a>, GMT+9)</th>
+    <th>Time (<a href="https://www.worldtimeserver.com/current_time_in_CA-AB.aspx?city=Edmonton">MDT</a>, UTC-6)</th>
     <th>Event</th>
   </tr>
 </thead>
@@ -49,8 +48,15 @@ The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on
     <td>Introductory Remarks</td>
   </tr>
   <tr>
-    <td>9:10 am - 9:25 am</td>
-    <td>Invited Talks 1: Siddharth Srivastava</td>
+    <td>9:10 am - 10:30 am</td>
+    <td>Session 1: Introduction to Reproducible Research
+
+Objective: The participants will be able to identify issues that RR aims to solve. They will also learn how to pinpoint challenges in making analyses reproducible.
+
+Brief description: The introductory session will lay the groundwork for understanding the essential role of reproducibility in scientific research and specifically to transportation research. We'll start by defining reproducibility and explaining its significance in scientific research, focusing on how it underpins the validity and credibility of the findings in the field of Intelligent Transportation Systems (ITS). The reproducibility crisis will be discussed in light of its implications, such as hindrance to scientific progress, resource wastage, and diminished public trust in research outcomes. Further, we'll explore the relevance of reproducibility to ITS research, citing examples from traffic management systems to autonomous vehicle technology.
+
+The hands-on activity will focus on participants identifying some issues related to making transportation research reproducible [9]. We will also conduct a survey to assess attitudes towards RR and needs of the community.
+    </td>
   </tr>
   <tr>
     <td>9:25 am - 9:40 am</td>
@@ -119,5 +125,6 @@ The [recording of the workshop](https://youtu.be/5VN7T0HujnQ) can be accessed on
 </tbody>
 </table>
 
+<!-- Please use this [Latex paper template](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/paper-template-latex.zip) and [submit](https://openreview.net/group?id=roboticsfoundation.org/RSS/2023/Workshop/LTAMP) via Open Review. Review will be single-blind so there's no need to anonymize your document. -->
 
-Please use this [Latex paper template](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/paper-template-latex.zip) and [submit](https://openreview.net/group?id=roboticsfoundation.org/RSS/2023/Workshop/LTAMP) via Open Review. Review will be single-blind so there's no need to anonymize your document.
+We are also grateful to Zuduo Zhang, Nicholas Saunier, and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
