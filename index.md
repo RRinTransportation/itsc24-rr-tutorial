@@ -7,7 +7,7 @@ title: Home
 layout: all
 ---
 
-![RR banner](assets/img/banner.jpg)
+![RR banner](assets/img/banner.png)
 
 This 3/4-day tutorial is dedicated to **reproducible research (RR) in transportation**. As transportation researchers, it has been our experience that research in transportation is hard to reproduce. Needless to say, this holds back the scientific progress of the field; every time a student needs to re-implement another paper or collect a similar dataset, that is time that could have been spent on new research. Fortunately, tools and best practices supporting RR are maturing, so it is the perfect time for the ITS community to engage with RR. We hope that this tutorial will help to move the needle on reproducibility in transportation, so that our research collectively achieves greater impact.
 
