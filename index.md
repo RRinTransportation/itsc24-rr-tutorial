@@ -7,7 +7,7 @@ title: Home
 layout: all
 ---
 
-![RR banner](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/img/banner.png)
+![RR banner](/assets/img/banner.png)
 
 This workshop will investigate the role of learning within Task and Motion Planning (TAMP). TAMP has shown remarkable capabilities in scaling to long action sequences, many objects and a variety of tasks. However, TAMP often relies on simplified models, assumes perfect world knowledge, and requires long computation time, which limits the real world applicability. To address these limitations, there has been significant recent interest in integrating learning methods into TAMP [
 <span class="secret1"><a href="https://proceedings.mlr.press/v164/ortiz-haro22a.html" target="_blank">1</a></span><span class="reveal1">Structured deep generative models for sampling on constraint manifolds in sequential manipulation. <br>Joaquim Ortiz-Haro, Jung-Su Ha, Danny Driess, Marc Toussaint. <br>CoRL 2022.</span>,
