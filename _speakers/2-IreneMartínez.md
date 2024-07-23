@@ -11,7 +11,7 @@ affil: TU Delft
 affil_link: https://www.tudelft.nl/en/ceg/about-faculty/departments/transport-planning/
 
 # An image of the organizer (square aspect ratio works the best)
-# img: jane.jpg # (place in the `assets/img/organizers` directory)
+# img: jane.jpg # (place in the `assets/img/speakers` directory)
 img_url: https://filelist.tudelft.nl/_processed_/9/b/csm_q6i3d6_9ba9dee172.webp
 
 # Secondary affiliation

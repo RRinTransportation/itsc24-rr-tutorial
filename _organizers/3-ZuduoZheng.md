@@ -11,8 +11,8 @@ affil: University of Queensland
 affil_link: https://civil.uq.edu.au/
 
 # An image of the organizer (square aspect ratio works the best)
-# img: jane.jpg # (place in the `assets/img/organizers` directory)
-img_url: https://its-ss-academicportal.s3.amazonaws.com/prod/uqresearchers/photo/20105.jpeg
+img: zuduo.jpeg # (place in the `assets/img/organizers` directory)
+# img_url: https://its-ss-academicportal.s3.amazonaws.com/prod/uqresearchers/photo/20105.jpeg
 
 # Secondary affiliation
 # affil2: 

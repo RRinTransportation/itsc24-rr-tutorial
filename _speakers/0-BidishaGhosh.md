@@ -11,7 +11,7 @@ affil: Trinity College Dublin
 affil_link: https://www.tcd.ie/civileng/
 
 # An image of the organizer (square aspect ratio works the best)
-img: bidisha.jpg # (place in the `assets/img/organizers` directory)
+img: bidisha.jpg # (place in the `assets/img/speakers` directory)
 # img_url: http://www.transport.ntua.gr/wp-content/uploads/dte-GhoshLecture-picture-October2018.jpg
 
 # Secondary affiliation

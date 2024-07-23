@@ -11,7 +11,7 @@ affil: MIT
 affil_link: https://lids.mit.edu/
 
 # An image of the organizer (square aspect ratio works the best)
-img: cathy.jpg # (place in the `assets/img/organizers` directory)
+img: cathy.jpg # (place in the `assets/img/speakers` directory)
 # img_url: http://www.wucathy.com/blog/wp-content/uploads/2018/12/headshot-head.jpg
 
 # Secondary affiliation
