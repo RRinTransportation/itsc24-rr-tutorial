@@ -82,8 +82,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td>16:00 pm - 17:20 pm</td>
-    <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b> <br/>
-          Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b></td>
   </tr>
   <tr>
     <td>17:20 pm - 17:30 pm</td>
