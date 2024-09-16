@@ -68,12 +68,27 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 2: How to badly document a research project</td>
+    <td>Lecture 2: How to badly document a research project
+      <br/> <br/>
+      <em>Learning objectives:</em>
+      <ul>
+        <li>Fundamentals of organizing projects, code, & data</li>
+        <li>Working knowledge of Github</li>
+        <li><em>(Advanced skills)</em> Automatically extract the computing environment for reproducibility</li>
+        <li><em>(Advanced skills)</em> VS Code and powerful extensions (tools for Jupyter, Markdown, csv, lint)</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td></td>
-    <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes? <br/>
-      👉 Please make sure to go through the <A href="{% link requirements.md %}#requirements-section2">participant requirements</A> prior to this session.
+    <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes?
+      <br/> <br/>
+      👉 <b>Please make sure to go through the <A href="{% link requirements.md %}#requirements-section2">participant requirements</A> prior to this session.</b> <br/> <br/>
+      <em>Learning objectives:</em>
+      <ul>
+        <li>Main goal: Create an ITS project that someone can reproduce in less than 5 minutes.</li>
+        <li>Stretch goal: Organize the project and make it understandable.</li>
+      </ul>
     </td>
   </tr>
   <tr>
