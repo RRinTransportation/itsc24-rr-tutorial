@@ -9,7 +9,7 @@ layout: all
 
 ![RR banner](assets/img/banner.png)
 
-This 3/4-day tutorial is dedicated to **reproducible research (RR) in transportation**. As transportation researchers, it has been our experience that research in transportation is hard to reproduce. Needless to say, this holds back the scientific progress of the field; every time a student needs to re-implement another paper or collect a similar dataset, that is time that could have been spent on new research. Fortunately, tools and best practices supporting RR are maturing, so it is the perfect time for the ITS community to engage with RR. We hope that this tutorial will help to move the needle on reproducibility in transportation, so that our research collectively achieves greater impact.
+This half-day tutorial (afternoon session) is dedicated to **reproducible research (RR) in transportation**. As transportation researchers, it has been our experience that research in transportation is hard to reproduce. Needless to say, this holds back the scientific progress of the field; every time a student needs to re-implement another paper or collect a similar dataset, that is time that could have been spent on new research. Fortunately, tools and best practices supporting RR are maturing, so it is the perfect time for the ITS community to engage with RR. We hope that this tutorial will help to move the needle on reproducibility in transportation, so that our research collectively achieves greater impact.
 
 This is the first of hopefully many tutorials on RR in transportation; as such, we want your feedback on your RR needs and interests! Please do not hesitate to get in touch.
 
@@ -31,7 +31,6 @@ In the field of traffic and transportation, Intelligent Transportation Systems (
 - **RR challenges in ITS**: What are challenges of RR in the field of ITS? Are they general across many fields or specific to this one? What are examples of (non-)reproducibility in ITS research?
 - **The state of RR in ITS**: Through a live participant survey, we will get a taste of the RR attitudes and needs of the ITS community.
 - **Documenting code and data for RR**: What kinds of missing metadata can be responsible for reproducibility failures? How can version control tools like git and github be used for RR? How can project files be organized for readability?
-- **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
 - **Hands-on activities**: Through two hands-on activities, participants will attempt to create small reproducible projects. Another participant will then try to reproduce it. Will they succeed? The first activity will focus on a simple report. The second activity will use a small project with code and data.
 
 #### Participant requirements
@@ -94,3 +93,14 @@ Participants should **bring laptops with [installed required software]({% link r
 </table>
 
 We are also grateful to the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
+
+
+### Potential future topics
+We simply did not have enough time to cover many important topics in the area! If you have suggestions for what you need to succeed in your research, we are all ears. Here are a few potential future topics:
+- **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
+- **Reproducible Analysis**: Our analysis pipeline are getting more and more sophisticated. What are best practices for leveraging Jupyter or Google Colab notebooks to perform and share interactive analysis?
+- **Reproducible Reporting**: What are dynamic documents? Reproducible reports? How does someone create one?
+- **Best Practices for Peer Review and Publication**: What role do reviewers and publication policies play in reproducible research? How can we move the needle forward? What are open science checklists? How well are they working?
+- **Reproducibility in Machine Learning and AI**: How can we standardize and manage ML experiments for reproducibility? 
+- **Addressing non-technical barriers to reproducible research**: The elephant in the room is the pressure to 'publish or perish'; researchers simply respond to the incentive structure. What or who can make a difference in RR?
+- **Case Studies in ITS**: Do we understand the extent of the RR issue in the field of ITS? How can we find out? What are the success stories of RR in ITS? What are the horror stories?
