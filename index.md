@@ -118,3 +118,4 @@ We simply did not have enough time to cover many important topics in the area! I
 - **Reproducibility in Machine Learning and AI**: How can we standardize and manage ML experiments for reproducibility? 
 - **Addressing non-technical barriers to reproducible research**: The elephant in the room is the pressure to 'publish or perish'; researchers simply respond to the incentive structure. What or who can make a difference in RR?
 - **Case Studies in ITS**: Do we understand the extent of the RR issue in the field of ITS? How can we find out? What are the success stories of RR in ITS? What are the horror stories?
+- **Hands-on RR workshop**: Participants bring a research project and work on making it reproducible (lectures, work sessions, collaborative sessions, discussion).
