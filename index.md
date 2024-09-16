@@ -56,12 +56,20 @@ TBD (please check back here before the tutorial!)
 - Knowledge of [git](https://swcarpentry.github.io/git-novice/) and [python](https://docs.python.org/3/tutorial/index.html) are helpful but not required.
 
 <details>
-	<summary>Click to expand</summary>
-	Long content here
-	and here
-  - Testing
-  - Testing
-    - Testing
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
 </details>
 
 ### Tentative Schedule
