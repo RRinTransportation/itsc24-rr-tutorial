@@ -52,7 +52,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td>13:40 pm - 15:10 pm</td>
-    <td><b>Session 1: Introduction to Reproducible Research</b> <br/>Speakers/Contributors: Bidisha Ghosh, Zuduo Zhang</td>
+    <td><b>Session 1: Introduction to Reproducible Research</b> <br/>Speakers/Contributors: Bidisha Ghosh, Zuduo Zheng</td>
   </tr>
   <tr>
     <td></td>
