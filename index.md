@@ -34,8 +34,8 @@ In the field of traffic and transportation, Intelligent Transportation Systems (
 - **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
 - **Hands-on activities**: Through two hands-on activities, participants will attempt to create small reproducible projects. Another participant will then try to reproduce it. Will they succeed? The first activity will focus on a simple report. The second activity will use a small project with code and data.
 
-#### Participant requirements {#requirements}
-Participants should **bring laptops with [installed required software]({{ site.baseurl }}{% link requirements.md %})** to participate in hands-on sessions.
+#### Participant requirements
+Participants should **bring laptops with [installed required software]({% link requirements.md %})** to participate in hands-on sessions.
 
 ### Tentative Schedule
 
@@ -74,7 +74,7 @@ Participants should **bring laptops with [installed required software]({{ site.b
   <tr>
     <td></td>
     <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes? <br/>
-      👉 Please make sure to go through the <A href="{{ site.baseurl }}{% link requirements.md %}">participant requirements</A> prior to this session.
+      👉 Please make sure to go through the <A href="{% link requirements.md %}#requirements-section2">participant requirements</A> prior to this session.
     </td>
   </tr>
   <tr>

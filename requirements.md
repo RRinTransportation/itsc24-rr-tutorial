@@ -4,6 +4,8 @@ title: Requirements
 layout: default
 ---
 
+#### Participant requirements {#requirements}
+
 Participants should **bring laptops with installed required software** to participate in hands-on sessions.
 
 ##### For Session 1
