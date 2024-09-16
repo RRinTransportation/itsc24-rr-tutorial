@@ -49,11 +49,11 @@ Participants should bring laptops with installed required software to participat
 </thead>
 <tbody>
   <tr>
-    <td>9:00 am - 9:10 am</td>
+    <td>13:30 pm - 13:40 pm</td>
     <td>Introductory Remarks</td>
   </tr>
   <tr>
-    <td>9:10 am - 10:45 am</td>
+    <td>13:40 pm - 15:10 pm</td>
     <td><b>Session 1: Introduction to Reproducible Research</b> <br/>Speakers/Contributors: Bidisha Ghosh, Zuduo Zhang</td>
   </tr>
   <tr>
@@ -69,12 +69,16 @@ Participants should bring laptops with installed required software to participat
     <td>Follow-up of hands-on activity (15 mins)</td>
   </tr>
   <tr>
-    <td>10:45 am - 11:00 am</td>
-    <td>Coffee Break</td>
+    <td>15:10 pm - 15:30 pm</td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
   </tr>
   <tr>
-    <td>11:00 am - 13:00 pm</td>
-    <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
+    <td>15:30 pm - 16:00 pm</td>
+    <td>Coffee Break and Office Hours</td>
+  </tr>
+  <tr>
+    <td>16:00 pm - 17:20 pm</td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
   </tr>
   <tr>
     <td></td>
@@ -89,18 +93,10 @@ Participants should bring laptops with installed required software to participat
     <td>Q&A and Wrap-Up (15 minutes)</td>
   </tr>
   <tr>
-    <td>13:00 pm - 14:00 pm</td>
-    <td>Lunch (Optional) <br/> Get involved in the community dedicated to Reproducible Research in Transportation.</td>
-  </tr>
-  <tr>
-    <td>14:00 pm - 15:00 pm</td>
-    <td><b>Session 3: Panel discussion on data sharing and management</b>  <br/>Speakers/Contributors: Irene Martínez</td>
-  </tr>
-  <tr>
-    <td>15:00 pm - 15:10 pm</td>
+    <td>17:20 pm - 17:30 pm</td>
     <td>Concluding Remarks</td>
   </tr>
 </tbody>
 </table>
 
-We are also grateful to Zuduo Zhang, Nicholas Saunier, and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
+We are also grateful to the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
