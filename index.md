@@ -34,7 +34,7 @@ In the field of traffic and transportation, Intelligent Transportation Systems (
 - **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
 - **Hands-on activities**: Through two hands-on activities, participants will attempt to create small reproducible projects. Another participant will then try to reproduce it. Will they succeed? The first activity will focus on a simple report. The second activity will use a small project with code and data.
 
-#### Participant requirements
+#### Participant requirements {#requirements}
 Participants should bring laptops with installed required software to participate in hands-on sessions. Required software installation guides will be provided prior to the workshop (please check back here before the tutorial!).
 
 
@@ -66,11 +66,25 @@ Participants should bring laptops with installed required software to participat
   </tr>
   <tr>
     <td></td>
-    <td>Follow-up of hands-on activity (10 mins)</td>
+    <td>Q&A (10 mins)</td>
   </tr>
   <tr>
     <td>15:10 pm - 15:30 pm</td>
     <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Lecture 2: How to badly document a research project</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes? <br/>
+      👉 Please make sure to go through the <A href="#requirements">participant requirements</A> prior to this session.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Q&A (10 mins)</td>
   </tr>
   <tr>
     <td>15:30 pm - 16:00 pm</td>
@@ -78,19 +92,8 @@ Participants should bring laptops with installed required software to participat
   </tr>
   <tr>
     <td>16:00 pm - 17:20 pm</td>
-    <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Lecture 2: How to badly document a research project (30 mins)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes? (60 mins)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Q&A and Wrap-Up (10 mins)</td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b> <br/>
+          Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
   </tr>
   <tr>
     <td>17:20 pm - 17:30 pm</td>
