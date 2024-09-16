@@ -35,9 +35,10 @@ In the field of traffic and transportation, Intelligent Transportation Systems (
 - **Hands-on activities**: Through two hands-on activities, participants will attempt to create small reproducible projects. Another participant will then try to reproduce it. Will they succeed? The first activity will focus on a simple report. The second activity will use a small project with code and data.
 
 #### Participant requirements {#requirements}
-Participants should bring laptops with installed required software to participate in hands-on sessions. Required software installation guides will be provided prior to the workshop (please check back here before the tutorial!).
+Participants should bring laptops with installed required software to participate in hands-on sessions.
 
 ##### For Session 1
+TBD (please check back here before the tutorial!)
 
 ##### For Session 2 {#requirements-section2}
 - This tutorial is designed to be accessible. We welcome all skill levels.
@@ -55,6 +56,15 @@ Participants should bring laptops with installed required software to participat
       - 👉 for Mac users with M1/M2 chips, please still install the Intel version
     - A [Python IDE](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)
       - 👉 We will be using [Visual Studio Code](https://code.visualstudio.com/) (VSCode). Install VSCode to best follow along.
+
+<details>
+	<summary>Click to expand</summary>
+	Long content here
+	and here
+  - Testing
+  - Testing
+    - Testing
+</details>
 
 ### Tentative Schedule
 
