@@ -58,15 +58,11 @@ Participants should bring laptops with installed required software to participat
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 1: Introduction to reproducible research (25 mins)</td>
+    <td>Lecture 1: Introduction to reproducible research</td>
   </tr>
   <tr>
     <td></td>
-    <td>Hands-on activity 1: Is your research reproducible? (55 mins)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Q&A (10 mins)</td>
+    <td>Hands-on activity 1: Is your research reproducible?</td>
   </tr>
   <tr>
     <td>15:10 pm - 15:30 pm</td>
@@ -81,10 +77,6 @@ Participants should bring laptops with installed required software to participat
     <td>Hands-on activity 2: Can you reproduce my simulation results in 5 minutes? <br/>
       👉 Please make sure to go through the <A href="#requirements">participant requirements</A> prior to this session.
     </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Q&A (10 mins)</td>
   </tr>
   <tr>
     <td>15:30 pm - 16:00 pm</td>
