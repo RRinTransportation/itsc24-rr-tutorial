@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /requirements/
 title: Requirements
 layout: default
 ---
@@ -19,7 +19,7 @@ TBD (please check back here before the tutorial!)
   - A command line program (E.g., Terminal or [iTerm2](https://iterm2.com/) for MacOS, Command Prompt for Windows)
   - git (see [tutorial](https://swcarpentry.github.io/git-novice/#installing-git))
   - [Anaconda Python](https://www.anaconda.com/download)
-    - 👉 for Mac users with M1/M2 chips, please still install the Intel version
+    - 👉 For Mac users with M1/M2 chips, please still install the Intel version
   - A [Python IDE](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)
     - 👉 We will be using [Visual Studio Code](https://code.visualstudio.com/) (VSCode). Install VSCode to best follow along.
 - Knowledge of [git](https://swcarpentry.github.io/git-novice/) and [python](https://docs.python.org/3/tutorial/index.html) are helpful but not required.
