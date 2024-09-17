@@ -51,7 +51,11 @@ Participants should **bring laptops with [installed required software]({% link r
     <td>Introductory Remarks</td>
   </tr>
   <tr>
-    <td>13:40 pm - 15:10 pm</td>
+    <td></td>
+    <td>Pre-tutorial survey</td>
+  </tr>
+  <tr>
+    <td>13:40 pm - 14:55 pm</td>
     <td><b>Session 1: Introduction to Reproducible Research</b> <br/>Speakers/Contributors: Bidisha Ghosh, Zuduo Zheng</td>
   </tr>
   <tr>
@@ -63,7 +67,7 @@ Participants should **bring laptops with [installed required software]({% link r
     <td>Hands-on activity 1: Is your research reproducible?</td>
   </tr>
   <tr>
-    <td>15:10 pm - 15:30 pm</td>
+    <td>14:55 pm - 15:30 pm</td>
     <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
   </tr>
   <tr>
@@ -96,11 +100,11 @@ Participants should **bring laptops with [installed required software]({% link r
     <td>Coffee Break and Office Hours</td>
   </tr>
   <tr>
-    <td>16:00 pm - 17:20 pm</td>
+    <td>16:00 pm - 17:25 pm</td>
     <td><b>Session 2: Documentation of Data and Code for Reproducibility (cont...)</b></td>
   </tr>
   <tr>
-    <td>17:20 pm - 17:30 pm</td>
+    <td>17:25 pm - 17:30 pm</td>
     <td>Concluding Remarks</td>
   </tr>
 </tbody>
