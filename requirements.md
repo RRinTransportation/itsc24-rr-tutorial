@@ -9,7 +9,7 @@ layout: default
 Participants should **bring laptops with installed required software** to participate in hands-on sessions.
 
 ##### For Session 1
-TBD (please check back here before the tutorial!)
+Participants can use any preferred software tools to complete the hands-on activity. Examples of suitable tools include Excel, MATLAB, Python, or R for creating line and scatter plots. No specific software is required for this session.
 
 ##### For Session 2 {#requirements-section2}
 This tutorial is designed to be accessible. We welcome all skill levels.
