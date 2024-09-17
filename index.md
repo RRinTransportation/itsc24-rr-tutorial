@@ -52,7 +52,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Pre-tutorial survey</td>
+    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdUXa7uf4D9zW8D6UEkNYb8ue0GayxvcXmuTSTpqiZypv5eGQ/viewform">Pre-tutorial survey</a></td>
   </tr>
   <tr>
     <td>13:40 pm - 14:55 pm</td>
@@ -106,6 +106,10 @@ Participants should **bring laptops with [installed required software]({% link r
   <tr>
     <td>17:25 pm - 17:30 pm</td>
     <td>Concluding Remarks</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSePwCggee6GQAV1P6AedYjQvx_zGigVMnIJpB7u7T16GD-3OQ/viewform">Post-tutorial survey</a></td>
   </tr>
 </tbody>
 </table>
