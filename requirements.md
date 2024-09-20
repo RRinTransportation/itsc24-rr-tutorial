@@ -28,3 +28,4 @@ You will need:
     - 👉 We will be using [Visual Studio Code](https://code.visualstudio.com/) (VSCode). Install VSCode to best follow along.
 - Knowledge of [git](https://swcarpentry.github.io/git-novice/) and [python](https://docs.python.org/3/tutorial/index.html) are helpful but not required. Part 3 of the tutorial ("Make it pretty") will benefit from proficiency in Python.
 
+Download project files: [Dropbox Link](https://www.dropbox.com/scl/fi/r428avq1kddxlm5hum1l6/itsc24-rr-tutorial-example-messy-v1.0.zip?rlkey=9afsrzn0nw5bomgstk7wsq9ud&dl=0)
