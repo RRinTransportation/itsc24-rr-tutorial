@@ -16,7 +16,7 @@ This tutorial is designed to be accessible. We welcome all skill levels.
 
 You will need:
 - A [Github](https://github.com/) account (see [tutorial](https://swcarpentry.github.io/git-novice/#creating-a-github-account))
-- Basic command line knowledge
+- Basic command line knowledge (see [tutorial](https://github.com/milanaryal/cli-cheat-sheet/blob/main/CLI-Cheat-Sheet.pdf))
   - If you can change directories, create & delete directories, and run a python script, you'll be fine.
   - Otherwise, you can take a few minutes to learn how. Here are some tutorials for [Unix](https://cerfacs.fr/coop/unix-terminal) (Mac & Linux) and [Windows](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line).
 - Software requirements
