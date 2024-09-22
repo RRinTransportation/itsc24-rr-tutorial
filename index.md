@@ -127,8 +127,8 @@ Participants should **bring laptops with [installed required software]({% link r
 We are also grateful to Nicholas Saunier and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
 
 
-### Potential future topics
-We simply did not have enough time to cover many important topics in the area! If you have suggestions for what you need to succeed in your research, we are all ears. Here are a few potential future topics:
+### Potential future topics and activities
+We simply did not have enough time to cover many important topics in the area! If you have suggestions for what you need to succeed in your research, we are all ears. Here are a few potential future topics and activities:
 - **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
 - **Reproducible Analysis**: Our analysis pipeline are getting more and more sophisticated. What are best practices for leveraging Jupyter or Google Colab notebooks to perform and share interactive analysis?
 - **Reproducible Reporting**: What are dynamic documents? Reproducible reports? How does someone create one?
@@ -137,3 +137,6 @@ We simply did not have enough time to cover many important topics in the area! I
 - **Addressing non-technical barriers to reproducible research**: The elephant in the room is the pressure to 'publish or perish'; researchers simply respond to the incentive structure. What or who can make a difference in RR?
 - **Case Studies in ITS**: Do we understand the extent of the RR issue in the field of ITS? How can we find out? What are the success stories of RR in ITS? What are the horror stories?
 - **Hands-on RR workshop**: Participants bring a research project and work on making it reproducible (lectures, work sessions, collaborative sessions, discussion).
+- **A Special Issue on Reproducible Research in Transportation**: We are doing this! See: https://www.springeropen.com/collections/RRT24.
+- **A Special Issue on Datasets and Benchmarks**: Explicitly reward creation of datasets and benchmarks that enable comparable and reproducible research in transportation.
+- **Focus groups** to identify unique reproducibility barriers for subareas within transportation (e.g., travel demand, traffic flow theory, etc.).
