@@ -74,7 +74,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td>14:55 pm - 15:30 pm</td>
-    <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speakers/Contributors: Cathy Wu, Nicholas Saunier </td>
+    <td><b>Session 2: Documentation of Data and Code for Reproducibility</b> <br/>Speaker: Cathy Wu, TA: Junyi Ji</td>
   </tr>
   <tr>
     <td></td>
@@ -120,7 +120,7 @@ Participants should **bring laptops with [installed required software]({% link r
 </tbody>
 </table>
 
-We are also grateful to the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
+We are also grateful to Nicholas Saunier and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
 
 
 ### Potential future topics
