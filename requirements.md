@@ -24,7 +24,7 @@ You will need:
   - git (see [tutorial](https://swcarpentry.github.io/git-novice/#installing-git))
   - [Anaconda Python](https://www.anaconda.com/download/success)
     - 👉 For Mac users with M1/M2 chips, please still install the Intel version
+    - [Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) should work fine, if you prefer.
   - A [Python IDE](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)
     - 👉 We will be using [Visual Studio Code](https://code.visualstudio.com/) (VSCode). Install VSCode to best follow along.
 - Knowledge of [git](https://swcarpentry.github.io/git-novice/) and [python](https://docs.python.org/3/tutorial/index.html) are helpful but not required. Part 3 of the tutorial ("Make it pretty") will benefit from proficiency in Python.
-
