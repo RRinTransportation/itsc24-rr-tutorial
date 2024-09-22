@@ -140,3 +140,4 @@ We simply did not have enough time to cover many important topics in the area! I
 - **A Special Issue on Reproducible Research in Transportation**: We are doing this! See: https://www.springeropen.com/collections/RRT24.
 - **A Special Issue on Datasets and Benchmarks**: Explicitly reward creation of datasets and benchmarks that enable comparable and reproducible research in transportation.
 - **Focus groups** to identify unique reproducibility barriers for subareas within transportation (e.g., travel demand, traffic flow theory, etc.).
+- **A reproducibility checklist for transportation research**, such as for [NeurIPS](https://neurips.cc/public/guides/PaperChecklist) and [AAAI](https://aaai.org/conference/aaai/aaai-25/aaai-25-reproducibility-checklist/).
