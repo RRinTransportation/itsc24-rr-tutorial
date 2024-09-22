@@ -67,8 +67,8 @@ Participants should **bring laptops with [installed required software]({% link r
     <td>Hands-on activity 1: Is your research reproducible? <br/><br/>
     👉 Please download the following two csv files for this activity:
     <ul>
-      <li><a href="assets/session-1-data/data_TCS183_e.csv">data_TCS183_e.csv</a></li>
-      <li><a href="assets/session-1-data/data_TrafficData.csv">data_TrafficData.csv</a></li>
+      <li><a href="session_files/session1/data_TCS183_e.csv">data_TCS183_e.csv</a></li>
+      <li><a href="session_files/session1/data_TrafficData.csv">data_TrafficData.csv</a></li>
     </ul>
     </td>
   </tr>
@@ -98,6 +98,10 @@ Participants should **bring laptops with [installed required software]({% link r
       <ul>
         <li>Main goal: Create an ITS project that someone can reproduce in less than 5 minutes.</li>
         <li>Stretch goal: Organize the project and make it understandable.</li>
+      </ul>
+      👉 Please download the following messy code files for this activity:
+      <ul>
+        <li><a href="session_files/session2/itsc24-rr-tutorial-example-messy-v1.1.zip">itsc24-rr-tutorial-example-messy-v1.1.zip</a></li>
       </ul>
     </td>
   </tr>
