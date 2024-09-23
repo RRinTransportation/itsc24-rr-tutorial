@@ -9,7 +9,12 @@ layout: all
 
 ![RR banner](assets/img/banner.png)
 
-This half-day tutorial (afternoon session) is dedicated to **reproducible research (RR) in transportation**. As transportation researchers, it has been our experience that research in transportation is hard to reproduce. Needless to say, this holds back the scientific progress of the field; every time a student needs to re-implement another paper or collect a similar dataset, that is time that could have been spent on new research. Fortunately, tools and best practices supporting RR are maturing, so it is the perfect time for the ITS community to engage with RR. We hope that this tutorial will help to move the needle on reproducibility in transportation, so that our research collectively achieves greater impact.
+#### Details
+- When: 13:30-17:30 ([MDT](https://www.worldtimeserver.com/current_time_in_CA-AB.aspx?city=Edmonton), UTC-6) | Tuesday, September 24, 2024
+- Where: Room **Salon 5** | Edmonton Convention Center | Edmonton, Canada
+
+#### Overview
+This tutorial is dedicated to **reproducible research (RR) in transportation**. As transportation researchers, it has been our experience that research in transportation is hard to reproduce. Needless to say, this holds back the scientific progress of the field; every time a student needs to re-implement another paper or collect a similar dataset, that is time that could have been spent on new research. Fortunately, tools and best practices supporting RR are maturing, so it is the perfect time for the ITS community to engage with RR. We hope that this tutorial will help to move the needle on reproducibility in transportation, so that our research collectively achieves greater impact.
 
 This is the first of hopefully many tutorials on RR in transportation; as such, we want your feedback on your RR needs and interests! Please do not hesitate to get in touch.
 
