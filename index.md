@@ -66,14 +66,14 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 1: Introduction to reproducible research</td>
+    <td>Lecture 1: Introduction to reproducible research (<a href="https://docs.google.com/presentation/d/1ocI17qjLhJwA-6DWOF61kSNBBiUvSgbz5cCmImSLe70/edit">slides</a>)</td>
   </tr>
   <tr>
     <td></td>
     <td>Hands-on activity 1: Is your research reproducible? <br/><br/>
     👉 Please download the following two csv files for this activity:
     <ul>
-      <li><a href="session_files/session1/data_TCS183_e.csv">data_TCS183_e.csv</a></li>
+      <li><a href="session_files/session1/data_TCS183.csv">data_TCS183.csv</a></li>
       <li><a href="session_files/session1/data_TrafficData.csv">data_TrafficData.csv</a></li>
     </ul>
     </td>
@@ -84,7 +84,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 2: How to badly document a research project
+    <td>Lecture 2: How to badly document a research project (<a href="https://docs.google.com/presentation/d/11I0fnvDBUvcsiQ0mezRysiLBvfzGHPz92kT_R9PXey8/edit">slides</a>)
       <br/> <br/>
       <em>Learning objectives:</em>
       <ul>
@@ -143,7 +143,7 @@ We simply did not have enough time to cover many important topics in the area! I
 - **Addressing non-technical barriers to reproducible research**: The elephant in the room is the pressure to 'publish or perish'; researchers simply respond to the incentive structure. What or who can make a difference in RR?
 - **Case Studies in ITS**: Do we understand the extent of the RR issue in the field of ITS? How can we find out? What are the success stories of RR in ITS? What are the horror stories?
 - **Hands-on RR workshop**: Participants bring a research project and work on making it reproducible (lectures, work sessions, collaborative sessions, discussion).
-- **A Special Issue on Reproducible Research in Transportation**: We are doing this! See: https://www.springeropen.com/collections/RRT24.
+- **A Special Issue on Reproducible Research in Transportation**: We are doing this! See our [call for papers](https://www.springeropen.com/collections/RRT24) for European Transport Research Review (ETRR).
 - **A Special Issue on Datasets and Benchmarks**: Explicitly reward creation of datasets and benchmarks that enable comparable and reproducible research in transportation.
 - **Focus groups** to identify unique reproducibility barriers for subareas within transportation (e.g., travel demand, traffic flow theory, etc.).
 - **A reproducibility checklist for transportation research**, such as for [NeurIPS](https://neurips.cc/public/guides/PaperChecklist) and [AAAI](https://aaai.org/conference/aaai/aaai-25/aaai-25-reproducibility-checklist/).
