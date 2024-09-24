@@ -66,7 +66,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 1: Introduction to reproducible research</td>
+    <td>Lecture 1: Introduction to reproducible research (<a href="https://docs.google.com/presentation/d/1ocI17qjLhJwA-6DWOF61kSNBBiUvSgbz5cCmImSLe70/edit">slides</a>)</td>
   </tr>
   <tr>
     <td></td>
@@ -84,7 +84,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td>Lecture 2: How to badly document a research project
+    <td>Lecture 2: How to badly document a research project (<a href="https://docs.google.com/presentation/d/11I0fnvDBUvcsiQ0mezRysiLBvfzGHPz92kT_R9PXey8/edit">slides</a>)
       <br/> <br/>
       <em>Learning objectives:</em>
       <ul>
