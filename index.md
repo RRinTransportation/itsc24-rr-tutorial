@@ -73,7 +73,7 @@ Participants should **bring laptops with [installed required software]({% link r
     <td>Hands-on activity 1: Is your research reproducible? <br/><br/>
     👉 Please download the following two csv files for this activity:
     <ul>
-      <li><a href="session_files/session1/data_TCS183.csv">data_TCS183_e.csv</a></li>
+      <li><a href="session_files/session1/data_TCS183.csv">data_TCS183.csv</a></li>
       <li><a href="session_files/session1/data_TrafficData.csv">data_TrafficData.csv</a></li>
     </ul>
     </td>
