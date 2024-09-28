@@ -1,4 +1,4 @@
-Time,Phase Time (s),Density Lane 1,Vol/h Lane 1,Density Lane 2,Vol/h Lane 2,Density Lane 3,Vol/h Lane 3,Density Lane 4,Vol/h Lane 4,Average DS (%),,Total density (veh/km/lane),Total flow (veh/hr)
+Time,Phase Time (s),Density Lane 1,Vol/h Lane 1,Density Lane 2,Vol/h Lane 2,Density Lane 3,Vol/h Lane 3,Density Lane 4,Vol/h Lane 4,Average DS (%),,Total density (veh/km),Total flow (veh/hr)
 00:00,85,0.017060367,211.7647059,0.030183727,338.8235294,0.01312336,169.4117647,0,0,19,,60.367454,720
 00:01,85,0.014435696,169.4117647,0.020997375,211.7647059,0.009186352,127.0588235,0.00656168,84.70588235,18,,51.181102,592.9411765
 00:02,85,0.014435696,169.4117647,0.031496063,338.8235294,0.015748031,211.7647059,0,0,21,,61.67979,720
