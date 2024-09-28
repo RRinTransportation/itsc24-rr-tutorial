@@ -147,7 +147,7 @@ C. Wu, B. Ghosh, Z. Zheng, and I. Martínez, “Reproducibility in transportatio
 ```
 
 ### Acknowledgements
-We are also grateful to Nicholas Saunier and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
+We are grateful to the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for financial support. We thank our early testers of the material: Cathy Wu’s research group, Xiaoyi Wu, Junyi Ji, Kate Sanborn, and Bidisha Ghosh's research group. Thank you to Vindula Jayawardana and Jung-Hoon Cho for feedback and contributing materials, to Nicholas Saunier for brainstorming, the [RERITE working group](https://rrintransportation.github.io/) for moral support, the [ITSS Educational Activities Committee](https://ieee-itss.org/educational-activities/) for dissemination, and, last but not least, to [ITSC 2024](https://ieee-itsc.org/2024/) for giving us a platform and a deadline. :)
 
 
 ### Potential future topics and activities
