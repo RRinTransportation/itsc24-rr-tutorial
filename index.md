@@ -130,6 +130,23 @@ Participants should **bring laptops with [installed required software]({% link r
 </tbody>
 </table>
 
+### Citing the tutorial
+
+If you use this tutorial in your work, you are encouraged to cite us:
+
+C. Wu, B. Ghosh, Z. Zheng, I .Martínez. "Reproducibility in Transportation Research: A Hands-on Tutorial", IEEE International Conference on Intelligent Transportation Systems (ITSC), 2024.
+
+```
+@misc{wu2024reproducibility,
+  title = {Reproducibility in Transportation Research: A Hands-on Tutorial},
+  author = {Wu, Cathy and Ghosh, Bidisha and Zheng, Zuduo and Mart{\'i}nez, Irene},
+  year = {2024},
+  publisher = {IEEE International Conference on Intelligent Transportation Systems (ITSC)},
+  url = {https://rrintransportation.github.io/itsc24-rr-tutorial/}
+}
+```
+
+### Acknowledgements
 We are also grateful to Nicholas Saunier and the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for their help in organizing the tutorial.
 
 
