@@ -125,7 +125,7 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSePwCggee6GQAV1P6AedYjQvx_zGigVMnIJpB7u7T16GD-3OQ/viewform">Post-tutorial survey</a></td>
+    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSePwCggee6GQAV1P6AedYjQvx_zGigVMnIJpB7u7T16GD-3OQ/viewform">Post-tutorial survey</a> (and optionally, sign up to stay in touch or get involved)</td>
   </tr>
 </tbody>
 </table>
