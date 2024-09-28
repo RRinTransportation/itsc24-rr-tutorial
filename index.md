@@ -84,7 +84,8 @@ Participants should **bring laptops with [installed required software]({% link r
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://docs.google.com/presentation/d/11I0fnvDBUvcsiQ0mezRysiLBvfzGHPz92kT_R9PXey8/edit">Lecture 2: How to badly document a research project</a>
+    <td><a href="https://docs.google.com/presentation/d/11I0fnvDBUvcsiQ0mezRysiLBvfzGHPz92kT_R9PXey8/edit">Lecture 2: How to badly document a research project</a> <br/>
+    Or not. From start to finish, create a reproducible ITS code example on Github
       <br/> <br/>
       <em>Learning objectives:</em>
       <ul>
