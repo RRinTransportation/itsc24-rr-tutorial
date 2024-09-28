@@ -11,7 +11,7 @@ affil: Vanderbilt University
 affil_link: https://www.vanderbilt.edu/
 
 # An image of the organizer (square aspect ratio works the best)
-img: junyi.jpg # (place in the `assets/img/speakers` directory)
+img: junyi.png # (place in the `assets/img/speakers` directory)
 
 # Secondary affiliation
 # affil2: 
