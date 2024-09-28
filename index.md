@@ -149,18 +149,3 @@ C. Wu, B. Ghosh, Z. Zheng, and I. Martínez, “Reproducibility in transportatio
 ### Acknowledgements
 We are grateful to the [REROUTE](https://reroute-project.eu/) project funded by Horizon Europe Marie Skłodowska-Curie Actions (MSCA) for financial support. We thank our early testers of the material: Cathy Wu’s research group, Xiaoyi Wu, Junyi Ji, Kate Sanborn, and Bidisha Ghosh's research group. Thank you to Vindula Jayawardana and Jung-Hoon Cho for feedback and contributing materials, to Nicholas Saunier for brainstorming, the [RERITE working group](https://rrintransportation.github.io/) for moral support, the [ITSS Educational Activities Committee](https://ieee-itss.org/educational-activities/) for dissemination, and, last but not least, to [ITSC 2024](https://ieee-itsc.org/2024/) for giving us a platform and a deadline. :)
 
-
-### Potential future topics and activities
-We simply did not have enough time to cover many important topics in the area! If you have suggestions for what you need to succeed in your research, we are all ears. Here are a few potential future topics and activities:
-- **A Special Issue on Reproducible Research in Transportation**: We are doing this! See our [call for papers](https://www.springeropen.com/collections/RRT24) for European Transport Research Review (ETRR).
-- **A Special Issue on Datasets and Benchmarks**: Explicitly reward creation of datasets and benchmarks that enable comparable and reproducible research in transportation.
-- **Focus groups** to identify unique reproducibility barriers for subareas within transportation (e.g., travel demand, traffic flow theory, etc.).
-- **A reproducibility checklist for transportation research**, such as for [NeurIPS](https://neurips.cc/public/guides/PaperChecklist) and [AAAI](https://aaai.org/conference/aaai/aaai-25/aaai-25-reproducibility-checklist/).
-- **Data sharing and management for RR**: What are best practices for storing data? How to choose a data format, and does it matter? How to participate in RR inspite of data with sensitive information?
-- **Reproducible Analysis**: Our analysis pipeline are getting more and more sophisticated. What are best practices for leveraging Jupyter or Google Colab notebooks to perform and share interactive analysis?
-- **Reproducible Reporting**: What are dynamic documents? Reproducible reports? How does someone create one?
-- **Best Practices for Peer Review and Publication**: What role do reviewers and publication policies play in reproducible research? How can we move the needle forward? What are open science checklists? How well are they working?
-- **Reproducibility in Machine Learning and AI**: How can we standardize and manage ML experiments for reproducibility? 
-- **Addressing non-technical barriers to reproducible research**: The elephant in the room is the pressure to 'publish or perish'; researchers simply respond to the incentive structure. What or who can make a difference in RR?
-- **Case Studies in ITS**: Do we understand the extent of the RR issue in the field of ITS? How can we find out? What are the success stories of RR in ITS? What are the horror stories?
-- **Hands-on RR workshop**: Participants bring a research project and work on making it reproducible (lectures, work sessions, collaborative sessions, discussion).
