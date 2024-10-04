@@ -135,7 +135,7 @@ Participants should **bring laptops with [installed required software]({% link r
 
 If you use this tutorial in your work, you are encouraged to cite us:
 
-C. Wu, B. Ghosh, Z. Zheng, and I. Martínez, “Reproducibility in transportation research: a hands-on tutorial.” IEEE International Conference on Intelligent Transportation Systems (ITSC), 2024. [Online]. Available: [https://rrintransportation.github.io/itsc24-rr-tutorial/](https://rrintransportation.github.io/itsc24-rr-tutorial/)
+C. Wu, B. Ghosh, Z. Zheng, and I. Martínez, “Reproducibility in transportation research: a hands-on tutorial.” IEEE International Conference on Intelligent Transportation Systems (ITSC), 2024. [Online]. Available: [https://www.rerite.org/itsc24-rr-tutorial/](https://www.rerite.org/itsc24-rr-tutorial/)
 
 ```
 @misc{wu2024reproducibility,
@@ -143,7 +143,7 @@ C. Wu, B. Ghosh, Z. Zheng, and I. Martínez, “Reproducibility in transportatio
   author = {Wu, Cathy and Ghosh, Bidisha and Zheng, Zuduo and Mart{\'i}nez, Irene},
   year = {2024},
   publisher = {IEEE International Conference on Intelligent Transportation Systems (ITSC)},
-  url = {https://rrintransportation.github.io/itsc24-rr-tutorial/}
+  url = {https://www.rerite.org/itsc24-rr-tutorial/}
 }
 ```
 
