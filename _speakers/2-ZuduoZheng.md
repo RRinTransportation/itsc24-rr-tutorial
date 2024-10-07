@@ -19,3 +19,5 @@ img: zuduo.jpeg # (place in the `assets/img/organizers` directory)
 # Link to the secondary affiliation
 # affil2_link:
 ---
+
+Professor Zuduo Zheng is TAP Chair (Deputy) sponsored by Queensland Department of Transport and Main Roads, and Professor in the School of Civil Engineering, and a former DECRA Research Fellow sponsored by the Australian Research Council.
