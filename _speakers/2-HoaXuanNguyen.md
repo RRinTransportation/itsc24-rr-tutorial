@@ -1,4 +1,3 @@
-
 ---
 # Name of the organizer
 name: Hoa Xuan Nguyen
