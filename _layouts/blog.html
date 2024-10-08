@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <!-- Post Header with Title and Meta Information -->
+  <header class="post-header" style="padding: 1.5rem 0; border-bottom: 1px solid #eee;">
+    <h1 class="post-title p-name" itemprop="name headline" style="font-size: 2.5rem; font-weight: 600; margin-bottom: 0.5rem;">
+      {{ page.title | escape }}
+    </h1>
+    <p class="post-meta" style="font-size: 0.9rem; color: #6c757d;">
+      <!-- Published Date -->
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        📅 {{ page.date | date: date_format }}
+      </time>
+      
+      <!-- Modified Date -->
+      {%- if page.modified_date -%}
+        &nbsp; • &nbsp; Updated:
+        <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">
+          {{ page.modified_date | date: date_format }}
+        </time>
+      {%- endif -%}
+      
+      <!-- Author -->
+      {%- if page.author -%}
+        &nbsp; • &nbsp; By:
+        {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">👤 {{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}
+    </p>
+  </header>
+
+  <!-- Post Content -->
+  <div class="post-content e-content" itemprop="articleBody" style="font-size: 1.1rem; line-height: 1.7; margin: 1.5rem 0;">
+    {{ content }}
+  </div>
+
+  <!-- Comments Section (Disqus or other) -->
+  {%- if site.disqus.shortname -%}
+    <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ddd;">
+      {%- include disqus_comments.html -%}
+    </div>
+  {%- endif -%}
+
+  <!-- Social Share Buttons -->
+  <div class="post-share" style="margin-top: 1.5rem;">
+    <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title | escape }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+      <button style="background: #1da1f2; color: white; border: none; padding: 0.5rem 1rem; margin-right: 0.5rem; cursor: pointer;">Share on Twitter</button>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+      <button style="background: #4267B2; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer;">Share on Facebook</button>
+    </a>
+  </div>
+
+  <!-- Hidden URL for SEO -->
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<style>
+  /* Responsive improvements */
+  @media (max-width: 768px) {
+    .post-title {
+      font-size: 2rem;
+    }
+    .post-meta {
+      font-size: 0.85rem;
+    }
+  }
+</style>

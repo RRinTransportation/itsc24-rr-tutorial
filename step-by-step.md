@@ -1,10 +1,8 @@
 ---
 permalink: /step-by-step/
-title: Step-by-step
-layout: post
+title: Step-by-step tutorial walkthrough
+layout: blog
 ---
-
-## Step-by-step tutorial walkthrough
 
 ### Hands-on Activity 1
 
