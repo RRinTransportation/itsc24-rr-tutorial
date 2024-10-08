@@ -1,7 +1,7 @@
 ---
 permalink: /step-by-step/
 title: Step-by-step
-layout: default
+layout: post
 ---
 
 ## Step-by-step tutorial walkthrough
