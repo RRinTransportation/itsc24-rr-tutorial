@@ -93,3 +93,12 @@
 .toc-toggle:hover {
     background-color: #0056b3;
 }
+
+#toc-container {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
