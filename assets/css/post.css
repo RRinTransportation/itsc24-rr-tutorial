@@ -3,12 +3,12 @@
     display: flex;           /* Use flexbox to position content and TOC side by side */
     max-width: 1000px;       /* Adjust to your preferred post width */
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 20px;
 }
 
 /* TOC sidebar styles */
 .toc-sidebar {
-    width: 240px;              /* Relative width of the sidebar */
+    width: 220px;              /* Relative width of the sidebar */
     margin-left: 10px;      /* Space between TOC and content */
     position: fixed;         /* Make the TOC float with the page */
     top: 200px;              /* Distance from the top of the viewport */
@@ -25,7 +25,7 @@
 /* Post content styles */
 .post-content {
     flex-grow: 1;            /* Allow the content area to take up remaining space */
-    margin-left: 30px;       /* Adjust margin to make room for the TOC */
+    margin-right: 30px;       /* Adjust margin to make room for the TOC */
 }
 
 /* TOC list styles */
