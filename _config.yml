@@ -100,3 +100,7 @@ collections:
 
 # Enable Rouge (default syntax highlighter)
 highlighter: rouge
+# line numbers in code blocks
+rouge:
+  plugins:
+    - rouge-line-numbers
