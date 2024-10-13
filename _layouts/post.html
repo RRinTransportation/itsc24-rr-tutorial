@@ -43,9 +43,9 @@ layout: default
   <div class="post-container">
     <!-- Sidebar TOC with a toggle button -->
     <aside class="toc-sidebar">
-      <button id="toc-toggle" class="toc-toggle">Hide TOC</button> <!-- Add button to toggle TOC -->
+      <button id="toc-toggle" class="toc-toggle">Contents</button> <!-- Add button to toggle TOC -->
       <nav id="toc-container">
-        <h3>Contents</h3>
+        <h4>Walkthrough</h4>
         <ul id="toc">
           <!-- This will be populated by JavaScript -->
         </ul>
@@ -85,9 +85,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Indentation based on heading level (optional styling)
         if (heading.tagName === 'H3') {
-            tocItem.style.marginLeft = '20px'; // Indent H3 headings
+            tocItem.style.marginLeft = '10px'; // Indent H3 headings
         } else if (heading.tagName === 'H4') {
-            tocItem.style.marginLeft = '40px'; // Indent H4 headings
+            tocItem.style.marginLeft = '20px'; // Indent H4 headings
         }
         
         toc.appendChild(tocItem);
@@ -99,10 +99,10 @@ document.addEventListener("DOMContentLoaded", function() {
     tocToggle.addEventListener('click', function() {
         if (tocContainer.style.display === 'none') {
             tocContainer.style.display = 'block';
-            tocToggle.innerText = 'Hide';
+            tocToggle.innerText = 'Contents';
         } else {
             tocContainer.style.display = 'none';
-            tocToggle.innerText = 'Show';
+            tocToggle.innerText = 'Contents';
         }
     });
 });
