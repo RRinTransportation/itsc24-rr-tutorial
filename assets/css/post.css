@@ -30,8 +30,9 @@
 
 /* TOC list styles */
 .toc-sidebar nav ul {
-    list-style-type: none; /* Remove bullets */
-    padding: 0;
+    list-style-type: none; /* This removes the bullet points */
+    padding-left: 0; /* Also removes any default padding */
+    margin-left: 0; /* Removes any left margin */
 }
 
 .toc-sidebar nav ul li {
