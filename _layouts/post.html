@@ -67,21 +67,28 @@ layout: default
 <!-- Add the JavaScript before the closing body tag -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // Get all h2 and h3 elements from the post content
+    // Get all h2, h3, and h4 elements from the post content
     const content = document.querySelector('.post-content');
-    const headings = content.querySelectorAll('h2, h3');
+    const headings = content.querySelectorAll('h2, h3, h4'); // Add h4 here
 
     // Create the TOC
     const toc = document.getElementById('toc');
     headings.forEach(heading => {
-        // Create an anchor link to each heading
-        const anchor = document.createElement('a');
-        const id = heading.innerText.trim().replace(/\s+/g, '-').toLowerCase(); // create a unique ID
+        // Create a unique ID by trimming the text and replacing spaces with hyphens
+        const id = heading.innerText.trim().replace(/\s+/g, '-').toLowerCase();
         heading.setAttribute('id', id); // Set the ID on the heading
-
+        
         // Add to the TOC
         const tocItem = document.createElement('li');
         tocItem.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
+        
+        // Indentation based on heading level (optional styling)
+        if (heading.tagName === 'H3') {
+            tocItem.style.marginLeft = '20px'; // Indent H3 headings
+        } else if (heading.tagName === 'H4') {
+            tocItem.style.marginLeft = '40px'; // Indent H4 headings
+        }
+        
         toc.appendChild(tocItem);
     });
 });

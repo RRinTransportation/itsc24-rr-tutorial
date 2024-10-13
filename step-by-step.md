@@ -4,16 +4,16 @@ title: Step-by-step tutorial walkthrough
 layout: post
 ---
 
-### Hands-on Activity 1
+## Hands-on Activity 1
 
-#### Prerequisites
+### Prerequisites
 Please download the following two .csv files for this activity:
 - [data_TCS183.csv](session_files/session1/data_TCS183.csv)
 - [data_TrafficData.csv](session_files/session1/data_TrafficData.csv)
 
-#### Exercise 1 - Reproducibility Motivation
+### Exercise 1 - Reproducibility Motivation
 
-##### Part 1: Analyze + Document
+#### Part 1: Analyze + Document
 
 Complete the following tasks and write instructions/documentation for your collaborator to reproduce your work:
 
@@ -47,4 +47,4 @@ print(df_1.head())
 
 Output 
 
-### Hands-on Activity 2
+## Hands-on Activity 2

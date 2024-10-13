@@ -10,50 +10,25 @@
     padding: 20px;
 }
 
-/* Sidebar TOC styles */
-.toc-sidebar {
-    width: 250px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-right: 1px solid #ddd;  /* Add this to make it look separate */
-    position: sticky;  /* Keeps the sidebar fixed while scrolling */
-    top: 20px;
-}
-
-/* TOC list styling */
 .toc-sidebar nav ul {
-    list-style: none;
+    list-style-type: none; /* Remove bullets */
     padding: 0;
 }
 
 .toc-sidebar nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Space between TOC items */
 }
 
 .toc-sidebar nav ul li a {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
 }
 
 .toc-sidebar nav ul li a:hover {
-    color: #007bff;
+    color: #0056b3; /* Hover color */
 }
 
-pre {
-    background-color: #282c34;
-    padding: 15px;
-    color: #abb2bf;
-    border-radius: 5px;
-    font-size: 14px;
-    overflow-x: auto;
-}
-
-code {
-    color: #e06c75;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-pre code {
-    background: none;
-    padding: 0;
+.toc-sidebar {
+    border-left: 3px solid #007bff; /* Optional border */
+    padding-left: 10px;
 }
