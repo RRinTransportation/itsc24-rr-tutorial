@@ -1,18 +1,50 @@
-/* Make the post content container wider */
+/* Post container layout */
 .post-container {
-    max-width: 1000px;  /* Increase this value for a wider post */
-    margin: 0 auto;     /* Center the content */
-    padding: 0 20px;    /* Add some padding for better readability */
+    display: flex;           /* Use flexbox to position content and TOC side by side */
+    max-width: 1000px;       /* Adjust to your preferred post width */
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-/* Optional: Make the TOC narrower to give more space for content */
+/* TOC sidebar styles */
 .toc-sidebar {
-    width: 200px; /* Reduce width if needed */
+    width: 250px;            /* Set the width of the sidebar */
+    margin-right: 20px;      /* Space between TOC and content */
+    position: fixed;         /* Make the TOC float with the page */
+    top: 20px;               /* Distance from the top of the viewport */
+    left: 20px;              /* Adjust this based on where you want it to float from the left */
+    height: auto;            /* Let the height adjust based on content */
+    z-index: 10;             /* Keep the TOC on top of other content */
+    background-color: #f9f9f9; /* Optional background color */
+    padding: 10px;           /* Add some padding for readability */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a floating effect */
+    border-radius: 5px;      /* Optional rounded corners */
 }
 
-/* Adjust the post content to take up more width */
+/* Post content styles */
 .post-content {
-    flex: 1; /* Ensure it takes up remaining space */
+    flex-grow: 1;            /* Allow the content area to take up remaining space */
+    margin-left: 300px;      /* Adjust margin to make room for the TOC */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .post-container {
+        flex-direction: column;  /* Stack the TOC and content on small screens */
+        max-width: 100%;         /* Full width on small screens */
+    }
+
+    .toc-sidebar {
+        width: 100%;             /* TOC takes full width on mobile */
+        position: static;        /* Disable floating on small screens */
+        margin-bottom: 20px;     /* Add space between TOC and content */
+        top: auto;               /* Remove fixed position on mobile */
+        left: auto;              /* Remove left offset on mobile */
+    }
+
+    .post-content {
+        margin-left: 0;          /* Remove left margin on small screens */
+    }
 }
 
 .toc-sidebar nav ul {
@@ -26,11 +58,11 @@
 
 .toc-sidebar nav ul li a {
     text-decoration: none; /* Remove underline */
-    color: #007bff; /* Link color */
+    color: #32383f; /* Link color */
 }
 
 .toc-sidebar nav ul li a:hover {
-    color: #0056b3; /* Hover color */
+    color: #1167c3; /* Hover color */
 }
 
 .toc-sidebar {
