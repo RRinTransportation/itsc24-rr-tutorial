@@ -13,7 +13,7 @@ Please download the following two .csv files for this activity:
 - [data_TCS183.csv](https://www.rerite.org/itsc24-rr-tutorial/session_files/session1/data_TCS183.csv)
 - [data_TrafficData.csv](https://www.rerite.org/itsc24-rr-tutorial/session_files/session1/data_TrafficData.csv)
 
-### Exercise 1 - Reproducibility Motivation
+### Reproducibility Motivation
 
 #### Part 1: Analyze + Document
 
@@ -34,10 +34,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ```
 
-```python
-##### TASK 1: Visualise ‘Total’ traffic from 13/06/2008 to 20/06/2008 using a line plot #####
-#####-----------------------------------------------------------------------------------#####
+**TASK 1**: Visualise 'Total' traffic from 13/06/2008 to 20/06/2008 using a line plot
 
+```python
 # Load the CSV file into a DataFrame, specifying the correct header row
 file_path = 'data_TCS183.csv'  
 df_1 = pd.read_csv(file_path, header=1)  # Use the second row (index 1) as header
@@ -46,8 +45,9 @@ df_1 = pd.read_csv(file_path, header=1)  # Use the second row (index 1) as heade
 print(df_1.head())
 ```
 
+Select the 'Time' and 'Total' columns to create a shorten dataframe, do all data processing on newly created dataset, remove redundant columns
+
 ```python
-# Select the 'Time' and 'Total' columns to create a shorten dataframe, do all data processing on newly created dataset, remove redundant columns
 df_1_shorted = df_1[['Time', 'Total']]
 
 # Create new DataFrame for the given tasks
@@ -59,12 +59,8 @@ df_1_shorted.set_index('Time', inplace=True)
 print(df_1_shorted)
 ```
 
-
-
+**TASK 2**: Replace the erroneous point 
 ```python
-##### TASK 2: Replace the erroneous point #####
-#####-------------------------------------#####
-
 # First, identify the incorrect data
 incorrect_value = 5181
 correct_value = 181
@@ -74,7 +70,6 @@ incorrect_date = '2008-06-19'
 df_1_shorted.loc[(df_1_shorted.index.date == pd.to_datetime(incorrect_date).date()) & (df_1_shorted['Total'] == incorrect_value), 'Total'] = correct_value
 df_1_filtered_corrected = df_1_shorted.loc[start_date:end_date]
 ```
-
 
 ```python
 # Plot the data
@@ -88,11 +83,9 @@ plt.savefig(f'Corrected Total Traffic Flow Over Time.png')
 plt.show()
 ```
 
+**TASK 3**: Create a scatter plot describing the ‘Total flow’ vs. ‘Total density’.
 
 ```python
-##### TASK 3: Create a scatter plot describing the ‘Total flow’ vs. ‘Total density’. ​ #####
-#####---------------------------------------------------------------------------------#####
-
 # Load the CSV file into a DataFrame
 file_path_2 = 'data_TrafficData.csv' 
 df_2 = pd.read_csv(file_path_2) 
@@ -119,13 +112,10 @@ plt.savefig(f'Traffic Flow vs Density.png')
 plt.show()
 ```
 
-
+**TASK 4**: Calculate the free flow velocity.
 ```python
-##### TASK 4: Calculate the free flow velocity. ​ #####
-#####--------------------------------------------#####
-
 # Greenshield’s macroscopic stream model for calculations of free stream velocity ($v_f$) and density jam ($k_j$)
-# 1, From q_max, get the corresponding k_max
+# 1. From q_max, get the corresponding k_max
 # Find the index of the maximum value in 'Total flow (veh/hr)'
 q_max = df_2_shorted['Total flow (veh/hr)'].max()
 print("Maximum flow (q_max): ", q_max)
@@ -135,11 +125,11 @@ k_max = df_2_shorted['Total density (veh/km)'].iloc[q_max_index]
 # Display the results
 print("The corresponding density to maximum flow (k_maxflow)': ", k_max)
 
-# 2, Calculation of the jam density (k_j = k_0 * 2) 
+# 2. Calculation of the jam density (k_j = k_0 * 2) 
 k_j = k_max * 2
 print('\nJam density (veh/km) (k_j = k_maxflow * 2) = ', k_j)
 
-# 3, Calculation of the free flow velocity 
+# 3. Calculation of the free flow velocity 
 v_f = q_max * 4 / k_j
 print('\nFree speed (km/lane/h) (v_f = q_max * 4 / k_j) = ', v_f) 
 ```
@@ -162,7 +152,7 @@ plt.savefig(f'Greenshield stream model.png')
 plt.show()
 ```
 
-### Part 2: Exchange document and discussion
+#### Part 2: Exchange document and discussion
 
 Introduce yourself to your collaborator and tell them why you're here.​
 
@@ -184,17 +174,14 @@ Afterwards, discuss the difficulties you encountered and the reasons you were or
 
 - What key factors contributed to successfully reproducing your partner's work?
 
-#### Four aspects of reproducibility:
+### Four aspects of reproducibility:
 
 1. Documentation: details of you code, model, algorithm, data, helps for running your code.
 
-2. Organization: save data in clear structure, easily to double check and use, separate raw and processed data, save code in separate folder.
+2. Organization: save data in clear structure, easily to double-check and use, separate raw and processed data, save code in separate folder.
 
 3. Automation: reduce audience effort to manipulate/edit your code to make it work, no effort is the best
 
-4. Dissemination: your research journal, data, code, algorithm are reproducible. How to maintain these materials assessible?
-
-
-
+4. Dissemination: your research journal, data, code, algorithm are reproducible. How to maintain these materials assessable?
 
 ## Hands-on Activity 2
