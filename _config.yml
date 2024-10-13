@@ -104,6 +104,6 @@ collections:
 # Optional: Customize syntax highlighting
 markdown: kramdown
 kramdown:
-  syntax_highlighter: rouge
+  # syntax_highlighter: rouge
   syntax_highlighter_opts:
     line_numbers: true  # Show line numbers (optional)
