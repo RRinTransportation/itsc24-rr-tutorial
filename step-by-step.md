@@ -6,16 +6,16 @@ date: 2024-10-13 10:00:00
 author: ["Bidisha Ghosh","Hoa Xuan Nguyen","Cathy Wu", "Junyi Ji"]
 ---
 
-## Hands-on Activity 1
+## Hands-on activity 1
 
 ### Prerequisites
 Please download the following two .csv files for this activity:
 - [data_TCS183.csv](https://www.rerite.org/itsc24-rr-tutorial/session_files/session1/data_TCS183.csv)
 - [data_TrafficData.csv](https://www.rerite.org/itsc24-rr-tutorial/session_files/session1/data_TrafficData.csv)
 
-### Reproducibility Motivation
+### Reproducibility motivation
 
-#### Part 1: Analyze + Document
+#### Part 1: Analysis and documentation
 
 Complete the following tasks and write instructions/documentation for your collaborator to reproduce your work:
 
@@ -152,7 +152,7 @@ plt.savefig(f'Greenshield stream model.png')
 plt.show()
 ```
 
-#### Part 2: Exchange document and discussion
+#### Part 2: Exchange documentation
 
 Introduce yourself to your collaborator and tell them why you're here.​
 
@@ -174,7 +174,7 @@ Afterwards, discuss the difficulties you encountered and the reasons you were or
 
 - What key factors contributed to successfully reproducing your partner's work?
 
-### Four aspects of reproducibility:
+### Four aspects of reproducibility
 
 1. Documentation: details of you code, model, algorithm, data, helps for running your code.
 
@@ -184,4 +184,8 @@ Afterwards, discuss the difficulties you encountered and the reasons you were or
 
 4. Dissemination: your research journal, data, code, algorithm are reproducible. How to maintain these materials assessable?
 
-## Hands-on Activity 2
+## Hands-on activity 2
+
+### Prerequisites
+
+See [participation requirements](https://www.rerite.org/itsc24-rr-tutorial/requirements/#requirements-section2)
