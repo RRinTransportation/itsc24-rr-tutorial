@@ -94,11 +94,62 @@
     background-color: #0056b3;
 }
 
-#toc-container {
+.toc-container {
     display: none;
     position: absolute;
     background-color: white;
     border: 1px solid #ddd;
     padding: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    /* Stack TOC on top of content for mobile */
+    .post-container {
+        display: block;        /* Stack elements vertically */
+        padding: 0 10px;       /* Adjust padding */
+    }
+
+    /* Move TOC to the top */
+    .toc-sidebar {
+        width: 100%;           /* Full width on mobile */
+        position: static;      /* Remove fixed positioning */
+        margin: 0 0 20px 0;    /* Add margin below TOC */
+        top: auto;
+        left: auto;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque */
+        box-shadow: none;      /* Remove shadow for mobile */
+    }
+
+    /* Ensure post content takes full width */
+    .post-content {
+        margin-left: 0;
+        flex-grow: 0;
+    }
+
+    /* Show TOC toggle button on mobile */
+    .toc-toggle-btn {
+        display: block;        /* Display the button */
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 0 auto 10px auto;
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /* Hide TOC initially on mobile */
+    .toc-sidebar {
+        display: none;
+    }
+
+    /* Show TOC when toggle is clicked */
+    .toc-sidebar.active {
+        display: block;
+    }
 }
