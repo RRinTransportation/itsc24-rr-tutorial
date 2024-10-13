@@ -92,7 +92,11 @@
 
 /* TOC collapsible functionality */
 .toc-sidebar.collapsed {
-    display: none; /* Initially hide the TOC when collapsed */
+    display: none; /* Hide TOC when collapsed */
+}
+
+.toc-sidebar.active {
+    display: block; /* Show TOC when active */
 }
 
 .toc-toggle-btn {
