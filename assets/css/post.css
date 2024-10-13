@@ -35,6 +35,12 @@
     margin-left: 0; /* Removes any left margin */
 }
 
+.toc-sidebar nav div {
+    list-style-type: none; /* This removes the bullet points */
+    padding-left: 0; /* Also removes any default padding */
+    margin-left: 0; /* Removes any left margin */
+}
+
 .toc-sidebar nav ul li {
     margin-bottom: 8px; /* Space between TOC items */
 }
@@ -87,3 +93,8 @@
 .toc-toggle:hover {
     background-color: #0056b3;
 }
+
+.post-title {
+    margin-left: 20px;
+}
+
