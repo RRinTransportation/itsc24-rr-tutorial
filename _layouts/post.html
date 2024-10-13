@@ -1,8 +1,20 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | escape }}</title>
+    
+    <!-- Link to your custom post.css file -->
+    <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+    
+    <!-- If you have any other stylesheets like main.css, they should also be linked here -->
+</head>
+<body>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -23,11 +35,26 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <!-- New container for content and TOC sidebar -->
+  <div class="post-container">
+    <!-- Sidebar TOC -->
+    <aside class="toc-sidebar">
+      <nav>
+        <h3>Table of Contents</h3>
+        <ul id="toc">
+          <!-- This will be populated by JavaScript -->
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main post content -->
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
   </div>
 
   {%- if site.disqus.shortname -%}
@@ -36,3 +63,28 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<!-- Add the JavaScript before the closing body tag -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all h2 and h3 elements from the post content
+    const content = document.querySelector('.post-content');
+    const headings = content.querySelectorAll('h2, h3');
+
+    // Create the TOC
+    const toc = document.getElementById('toc');
+    headings.forEach(heading => {
+        // Create an anchor link to each heading
+        const anchor = document.createElement('a');
+        const id = heading.innerText.trim().replace(/\s+/g, '-').toLowerCase(); // create a unique ID
+        heading.setAttribute('id', id); // Set the ID on the heading
+
+        // Add to the TOC
+        const tocItem = document.createElement('li');
+        tocItem.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
+        toc.appendChild(tocItem);
+    });
+});
+</script>
+</body>
+</html>
