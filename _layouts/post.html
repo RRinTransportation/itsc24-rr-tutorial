@@ -10,10 +10,8 @@ layout: default
     
     <!-- Link to your custom post.css file -->
     <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
-    
-    <!-- Prism.js CSS for syntax highlighting -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
+
 </head>
 <body>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -67,9 +65,6 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<!-- Add the JavaScript before the closing body tag -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     // Get all h2, h3, and h4 elements from the post content
