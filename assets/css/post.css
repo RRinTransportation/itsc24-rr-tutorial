@@ -8,26 +8,69 @@
 
 /* TOC sidebar styles */
 .toc-sidebar {
-    width: 250px;            /* Set the width of the sidebar */
+    width: 25%;              /* Relative width of the sidebar */
+    min-width: 180px;        /* Set a minimum width to avoid it shrinking too much */
     margin-right: 20px;      /* Space between TOC and content */
     position: fixed;         /* Make the TOC float with the page */
-    top: 60px;               /* Distance from the top of the viewport */
+    top: 100px;              /* Distance from the top of the viewport */
     left: 20px;              /* Adjust this based on where you want it to float from the left */
-    height: auto;            /* Let the height adjust based on content */
     z-index: 10;             /* Keep the TOC on top of other content */
     background-color: #f9f9f9; /* Optional background color */
     padding: 10px;           /* Add some padding for readability */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a floating effect */
     border-radius: 5px;      /* Optional rounded corners */
+    border-left: 3px solid #007bff; /* Optional border */
+    padding-left: 10px;
 }
 
 /* Post content styles */
 .post-content {
     flex-grow: 1;            /* Allow the content area to take up remaining space */
-    margin-left: 10px;      /* Adjust margin to make room for the TOC */
+    margin-left: 10px;       /* Adjust margin to make room for the TOC */
+}
+
+/* TOC list styles */
+.toc-sidebar nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.toc-sidebar nav ul li {
+    margin-bottom: 8px; /* Space between TOC items */
+}
+
+.toc-sidebar nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #32383f; /* Link color */
+}
+
+.toc-sidebar nav ul li a:hover {
+    color: #1167c3; /* Hover color */
 }
 
 /* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+    .toc-sidebar {
+        width: 20%;            /* Narrower TOC on medium screens */
+        min-width: 150px;       /* Enforce a smaller minimum width */
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .toc-sidebar {
+        width: 100%;            /* Full width TOC on smaller screens */
+        position: relative;      /* Make the TOC scroll with the content */
+        margin-bottom: 20px;     /* Add space between TOC and content */
+        top: auto;               /* Remove fixed positioning */
+        left: auto;              /* Remove left positioning */
+    }
+
+    .post-content {
+        margin-left: 0;          /* Remove left margin on small screens */
+    }
+}
+
 @media (max-width: 768px) {
     .post-container {
         flex-direction: column;  /* Stack the TOC and content on small screens */
@@ -47,25 +90,30 @@
     }
 }
 
-.toc-sidebar nav ul {
-    list-style-type: none; /* Remove bullets */
-    padding: 0;
+/* TOC collapsible functionality */
+.toc-sidebar.collapsed {
+    display: none; /* Initially hide the TOC when collapsed */
 }
 
-.toc-sidebar nav ul li {
-    margin-bottom: 8px; /* Space between TOC items */
+.toc-toggle-btn {
+    display: none;              /* Hidden by default */
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 20;
 }
 
-.toc-sidebar nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: #32383f; /* Link color */
+@media (max-width: 768px) {
+    .toc-toggle-btn {
+        display: block;         /* Show the button on small screens */
+    }
 }
 
-.toc-sidebar nav ul li a:hover {
-    color: #1167c3; /* Hover color */
-}
-
-.toc-sidebar {
-    border-left: 3px solid #007bff; /* Optional border */
-    padding-left: 10px;
+.toc-sidebar.active {
+    display: block;            /* Show TOC when active */
 }
