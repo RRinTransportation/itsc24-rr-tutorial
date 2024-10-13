@@ -93,3 +93,22 @@
 .toc-toggle:hover {
     background-color: #0056b3;
 }
+
+
+code, pre {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+pre {
+    line-height: 1.5;
+}
+
+/* Optional: Style line numbers if using them */
+pre .lineno {
+    color: #888;
+    margin-right: 10px;
+}
