@@ -34,7 +34,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ```
 
-
 ```python
 ##### TASK 1: Visualise ‘Total’ traffic from 13/06/2008 to 20/06/2008 using a line plot #####
 #####-----------------------------------------------------------------------------------#####

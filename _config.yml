@@ -99,7 +99,7 @@ collections:
 # google_analytics: # tracking id
 
 # Enable Rouge (default syntax highlighter)
-highlighter: rouge
+# highlighter: rouge
 
 # Optional: Customize syntax highlighting
 markdown: kramdown
