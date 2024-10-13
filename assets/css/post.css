@@ -38,3 +38,22 @@
 .toc-sidebar nav ul li a:hover {
     color: #007bff;
 }
+
+pre {
+    background-color: #282c34;
+    padding: 15px;
+    color: #abb2bf;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+code {
+    color: #e06c75;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}

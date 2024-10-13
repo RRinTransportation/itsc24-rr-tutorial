@@ -97,3 +97,5 @@ collections:
 
 # Google analytics id. Add your tracking id to get visitor stats.
 # google_analytics: # tracking id
+markdown: kramdown
+highlighter: rouge
