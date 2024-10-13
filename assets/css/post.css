@@ -11,7 +11,7 @@
     width: 250px;            /* Set the width of the sidebar */
     margin-right: 20px;      /* Space between TOC and content */
     position: fixed;         /* Make the TOC float with the page */
-    top: 50px;               /* Distance from the top of the viewport */
+    top: 60px;               /* Distance from the top of the viewport */
     left: 20px;              /* Adjust this based on where you want it to float from the left */
     height: auto;            /* Let the height adjust based on content */
     z-index: 10;             /* Keep the TOC on top of other content */
@@ -24,7 +24,7 @@
 /* Post content styles */
 .post-content {
     flex-grow: 1;            /* Allow the content area to take up remaining space */
-    margin-left: 100px;      /* Adjust margin to make room for the TOC */
+    margin-left: 30px;      /* Adjust margin to make room for the TOC */
 }
 
 /* Responsive design for smaller screens */
