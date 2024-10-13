@@ -4,7 +4,6 @@ title: Step-by-step tutorial walkthrough
 layout: post
 date: 2024-10-13 10:00:00
 author: ["Bidisha Ghosh","Hoa Xuan Nguyen","Cathy Wu", "Junyi Ji"]
-modified_date: 2024-10-13 12:00:00
 ---
 
 ## Hands-on Activity 1
