@@ -8,8 +8,7 @@
 
 /* TOC sidebar styles */
 .toc-sidebar {
-    width: 25%;              /* Relative width of the sidebar */
-    min-width: 180px;        /* Set a minimum width to avoid it shrinking too much */
+    width: 180px;              /* Relative width of the sidebar */
     margin-right: 20px;      /* Space between TOC and content */
     position: fixed;         /* Make the TOC float with the page */
     top: 100px;              /* Distance from the top of the viewport */
