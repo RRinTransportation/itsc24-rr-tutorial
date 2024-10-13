@@ -1,13 +1,18 @@
-/* Flexbox container for the post content and sidebar */
+/* Make the post content container wider */
 .post-container {
-    display: flex;
-    justify-content: space-between;
+    max-width: 1000px;  /* Increase this value for a wider post */
+    margin: 0 auto;     /* Center the content */
+    padding: 0 20px;    /* Add some padding for better readability */
 }
 
-/* Style for the post content area */
+/* Optional: Make the TOC narrower to give more space for content */
+.toc-sidebar {
+    width: 200px; /* Reduce width if needed */
+}
+
+/* Adjust the post content to take up more width */
 .post-content {
-    flex: 1;
-    padding: 20px;
+    flex: 1; /* Ensure it takes up remaining space */
 }
 
 .toc-sidebar nav ul {
