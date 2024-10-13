@@ -45,7 +45,7 @@ layout: default
     <aside class="toc-sidebar">
       <button id="toc-toggle" class="toc-toggle">Hide TOC</button> <!-- Add button to toggle TOC -->
       <nav id="toc-container">
-        <h3>Table of Contents</h3>
+        <h3>Contents</h3>
         <ul id="toc">
           <!-- This will be populated by JavaScript -->
         </ul>
@@ -99,10 +99,10 @@ document.addEventListener("DOMContentLoaded", function() {
     tocToggle.addEventListener('click', function() {
         if (tocContainer.style.display === 'none') {
             tocContainer.style.display = 'block';
-            tocToggle.innerText = 'Hide TOC';
+            tocToggle.innerText = 'Hide';
         } else {
             tocContainer.style.display = 'none';
-            tocToggle.innerText = 'Show TOC';
+            tocToggle.innerText = 'Show';
         }
     });
 });

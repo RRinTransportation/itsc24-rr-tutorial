@@ -48,48 +48,6 @@
     color: #1167c3; /* Hover color */
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 1200px) {
-    .toc-sidebar {
-        width: 20%;            /* Narrower TOC on medium screens */
-        min-width: 150px;       /* Enforce a smaller minimum width */
-        margin-right: 15px;
-    }
-}
-
-@media (max-width: 992px) {
-    .toc-sidebar {
-        width: 100%;            /* Full width TOC on smaller screens */
-        position: relative;      /* Make the TOC scroll with the content */
-        margin-bottom: 20px;     /* Add space between TOC and content */
-        top: auto;               /* Remove fixed positioning */
-        left: auto;              /* Remove left positioning */
-    }
-
-    .post-content {
-        margin-left: 0;          /* Remove left margin on small screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .post-container {
-        flex-direction: column;  /* Stack the TOC and content on small screens */
-        max-width: 100%;         /* Full width on small screens */
-    }
-
-    .toc-sidebar {
-        width: 100%;             /* TOC takes full width on mobile */
-        position: static;        /* Disable floating on small screens */
-        margin-bottom: 20px;     /* Add space between TOC and content */
-        top: auto;               /* Remove fixed position on mobile */
-        left: auto;              /* Remove left offset on mobile */
-    }
-
-    .post-content {
-        margin-left: 0;          /* Remove left margin on small screens */
-    }
-}
-
 /* TOC collapsible functionality */
 .toc-sidebar.collapsed {
     display: none; /* Hide TOC when collapsed */
@@ -110,12 +68,6 @@
     padding: 10px;
     cursor: pointer;
     z-index: 20;
-}
-
-@media (max-width: 768px) {
-    .toc-toggle-btn {
-        display: block;         /* Show the button on small screens */
-    }
 }
 
 .toc-sidebar.active {
